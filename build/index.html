@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/images/fav_mount.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/app.min.css">
+  <title>Welcome</title>
+</html>
+<body>
+  <div class="wrapper">
+    <div class="loader">
+      <div class="loader__inner"></div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__menu"><img class="header__logo" src="../assets/images/logo.svg" alt="logo">
+          <nav class="header__nav">
+            <div class="toggle_menu">
+              <p>MENU</p>
+            </div>
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#">стили</a>
+                <ul class="submenu">
+                  <li><a href="#">Американский современный</a></li>
+                  <li><a href="#">Английский колониальный</a></li>
+                  <li><a href="#">Винтажный Вост</a></li>
+                  <li class="has_children"><a href="#">Скандинавский эко</a>
+                    <ul class="submenu_wall">
+                      <li><a href="#">item1</a></li>
+                      <li><a href="#">item2</a></li>
+                      <li><a href="#">item3</a></li>
+                      <li><a href="#">item4</a></li>
+                      <li><a href="#">item5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Средиземноморский</a></li>
+                  <li><a href="#">Рустика кантри</a></li>
+                  <li><a href="#">Лофт</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a class="menu__link" href="#">мебель</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">свет</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">декор</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">XVIII-XIX век</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">услуги</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">акции</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">блог</a></li>
+            </ul>
+          </nav>
+          <div class="header__search"><img class="glass" src="../assets/images/search-glass.webp" alt="search_glass">
+            <form class="searchform" action="" method="post">
+              <input class="search_input" type="search" name="search" placeholder="что ищем?"><span class="line"></span>
+            </form>
+          </div>
+          <div class="header__cart"><a href="#"><img class="img_cart" src="../assets/images/shopping-cart.webp" alt="cart"></a><span class="count">2</span></div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <script src="assets/scripts/bundle.js"></script>
+</body>
