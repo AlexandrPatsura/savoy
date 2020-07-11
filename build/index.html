@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="assets/images/fav_mount.png" type="image/x-icon">
-  <link rel="stylesheet" href="assets/styles/app.min.css">
+  <link rel="shortcut icon" href="images/fav_mount.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&amp;family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/app.min.css">
   <title>Welcome</title>
 </html>
 <body>
@@ -15,29 +16,29 @@
     </div>
     <header class="header">
       <div class="container">
-        <div class="header__menu"><img class="header__logo" src="../assets/images/logo.svg" alt="logo">
+        <div class="header__menu"><img class="header__logo logo" src="../images/logo.svg" alt="logo">
           <nav class="header__nav">
             <div class="toggle_menu">
               <p>MENU</p>
             </div>
             <ul class="menu">
-              <li class="menu__item"><a class="menu__link" href="#">стили</a>
+              <li class="menu__item has_children"><a class="menu__link" href="#">стили</a>
                 <ul class="submenu">
-                  <li><a href="#">Американский современный</a></li>
-                  <li><a href="#">Английский колониальный</a></li>
-                  <li><a href="#">Винтажный Вост</a></li>
-                  <li class="has_children"><a href="#">Скандинавский эко</a>
-                    <ul class="submenu_wall">
-                      <li><a href="#">item1</a></li>
-                      <li><a href="#">item2</a></li>
-                      <li><a href="#">item3</a></li>
-                      <li><a href="#">item4</a></li>
-                      <li><a href="#">item5</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Американский современный</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Английский колониальный</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Винтажный Вост</a></li>
+                  <li class="submenu__item has_children"><a class="submenu__link" href="#">Скандинавский эко</a>
+                    <ul class="submenu submenu__level2">
+                      <li class="submenu__item"><a class="submenu__link" href="#">item1</a></li>
+                      <li class="submenu__item"><a class="submenu__link" href="#">item2</a></li>
+                      <li class="submenu__item"><a class="submenu__link" href="#">item3</a></li>
+                      <li class="submenu__item"><a class="submenu__link" href="#">item4</a></li>
+                      <li class="submenu__item"><a class="submenu__link" href="#">item5</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Средиземноморский</a></li>
-                  <li><a href="#">Рустика кантри</a></li>
-                  <li><a href="#">Лофт</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Средиземноморский</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Рустика кантри</a></li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">Лофт</a></li>
                 </ul>
               </li>
               <li class="menu__item"><a class="menu__link" href="#">мебель</a></li>
@@ -49,15 +50,28 @@
               <li class="menu__item"><a class="menu__link" href="#">блог</a></li>
             </ul>
           </nav>
-          <div class="header__search"><img class="glass" src="../assets/images/search-glass.webp" alt="search_glass">
+          <div class="header__search"><img class="glass" src="../images/search-glass.webp" alt="search_glass">
             <form class="searchform" action="" method="post">
               <input class="search_input" type="search" name="search" placeholder="что ищем?"><span class="line"></span>
             </form>
           </div>
-          <div class="header__cart"><a href="#"><img class="img_cart" src="../assets/images/shopping-cart.webp" alt="cart"></a><span class="count">2</span></div>
+          <div class="header__cart"><a href="#"><img class="img_cart" src="../images/shopping-cart.webp" alt="cart"></a><span class="count">2</span></div>
         </div>
       </div>
     </header>
+    <div class="slider-dots">
+      <div class="container"></div>
+    </div>
+    <div class="main__slider container-full">
+      <div class="slider__item"><img class="slider__image" src="../images/header-slider1.webp" alt="header-slider">
+        <div class="container">
+          <div class="slider__text">
+            <h2 class="slider__title">черпай вдохновение</h2>
+            <h3 class="slider__descr">Создавай свой стиль и свою атмосферу<br>вместе с мебельной студией savoy.one</h3><a class="go_to animate" href="#" tabindex="0">перейти</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <script src="assets/scripts/bundle.js"></script>
+  <script src="scripts/bundle.js"></script>
 </body>
